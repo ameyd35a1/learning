@@ -1,0 +1,27 @@
+{
+"stocks":[
+    {
+        "name": "Torrent Pharmaceuticals",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/pharmaceuticals/torrentpharmaceuticals/TP06"
+    },
+    {
+        "name": "Indian Oil Corporation",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/refineries/indianoilcorporation/IOC"
+    },
+    {
+        "name": "Infosys",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/computers-software/infosys/IT"
+    },
+    {
+        "name": "TCS",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"
+    },
+    {
+        "name": "Natco Pharmaceuticals",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/pharmaceuticals/natcopharma/NP07"
+    },
+    {
+        "name": "IDFC Bank",
+        "url": "http://www.moneycontrol.com/india/stockpricequote/banks-private-sector/idfcbank/IDF01"
+    }
+]}

@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import json
 
 class bcolors:
     HEADER = '\033[95m'
@@ -11,11 +12,14 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
+URL = []
 
-URL = ["http://www.moneycontrol.com/india/stockpricequote/pharmaceuticals/torrentpharmaceuticals/TP06",
-        "http://www.moneycontrol.com/india/stockpricequote/refineries/indianoilcorporation/IOC",
-        "http://www.moneycontrol.com/india/stockpricequote/computers-software/infosys/IT",
-        "http://www.moneycontrol.com/india/stockpricequote/computers-software/tataconsultancyservices/TCS"]
+with open('stocks.json') as stocks_json:
+    data_file = json.load(stocks_json)
+
+
+for data in data_file['stocks']:
+    URL.append(data['url'])
 
 def getSentiments(soup):
     """
